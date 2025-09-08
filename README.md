@@ -55,7 +55,17 @@ This project is a full-stack virtual assistant application with a Node.js/Expres
    npm run dev
    ```
 
-The frontend will be available at `http://localhost:5173` and the backend at `http://localhost:5000` (or the port specified in your `.env`).
 
+
+## Assistant Activation
+## Assistant Activation & Customization
+The virtual assistant only gets activated when you say or type the name of the assistant that you have provided during customization.
+For example, if you named your assistant "Shifra", you must include "Shifra" in your command (e.g., "Shifra, what is the weather today?") for the assistant to respond.
+This ensures that the assistant listens only for instructions directed to it by name.
+You can also customize your assistant's picture during the setup process, choosing from provided images or uploading your own.
+
+## Deployment
+You can access the deployed SAAR Virtual Assistant here:
+https://saar-smart-ai-assistant-for-response-ukvo.onrender.com
 ## License
 This project is for educational purposes.
